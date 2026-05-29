@@ -1,0 +1,96 @@
+[
+  {
+    "name": "kpi_metrics",
+    "fields": [
+      {
+        "name": "Month",
+        "type": "text",
+        "description": "Month of the metric snapshot (YYYY-MM)",
+        "options": null
+      },
+      {
+        "name": "MRR",
+        "type": "number",
+        "description": "Monthly Recurring Revenue",
+        "options": null
+      },
+      {
+        "name": "ARR",
+        "type": "number",
+        "description": "Annual Recurring Revenue",
+        "options": null
+      },
+      {
+        "name": "ChurnRate",
+        "type": "number",
+        "description": "Customer Churn Rate percentage",
+        "options": null
+      },
+      {
+        "name": "NRR",
+        "type": "number",
+        "description": "Net Revenue Retention percentage",
+        "options": null
+      },
+      {
+        "name": "CAC",
+        "type": "number",
+        "description": "Customer Acquisition Cost",
+        "options": null
+      },
+      {
+        "name": "LTV",
+        "type": "number",
+        "description": "Customer Lifetime Value",
+        "options": null
+      },
+      {
+        "name": "Subscribers",
+        "type": "number",
+        "description": "Active Subscribers count",
+        "options": null
+      },
+      {
+        "name": "NewCustomers",
+        "type": "number",
+        "description": "New customers acquired",
+        "options": null
+      },
+      {
+        "name": "ChurnedCustomers",
+        "type": "number",
+        "description": "Customers churned",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "plans",
+    "fields": [
+      {
+        "name": "Name",
+        "type": "text",
+        "description": "Plan name",
+        "options": null
+      },
+      {
+        "name": "Subscribers",
+        "type": "number",
+        "description": "Number of subscribers",
+        "options": null
+      },
+      {
+        "name": "MRR",
+        "type": "number",
+        "description": "MRR Contribution",
+        "options": null
+      },
+      {
+        "name": "ChurnRate",
+        "type": "number",
+        "description": "Churn rate percentage for the plan",
+        "options": null
+      }
+    ]
+  }
+]
